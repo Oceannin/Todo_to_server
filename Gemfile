@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.0'
+ruby '3.2.0'
 
 gem 'aasm'
 gem 'aasm-diagram'
@@ -28,7 +28,7 @@ gem 'letter_opener'
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 gem 'pundit'
-gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
+gem 'rails', '~> 7.0.3.1'
 gem 'rails-i18n'
 gem 'resque'
 gem 'roo'
